@@ -1,0 +1,7 @@
+import os
+
+OPENAI_MODEL = "gpt-4o-mini"
+TEMPERATURE = 0.3
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 50
+TOP_K = 3
