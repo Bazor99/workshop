@@ -16,8 +16,8 @@ def generate_markdown_report(analysis):
 ## Missing Skills
 {chr(10).join(['- ' + m for m in analysis.get("missing_skills", [])])}
 
-## Rewritten Bullets (STAR Format)
-{chr(10).join(['- ' + b for b in analysis.get("rewritten_bullets_star", [])])}
+## Suggestions for improvement
+{chr(10).join(['- ' + b for b in analysis.get("Suggestions for improvement", [])])}
 
 ## Interview Questions
 {chr(10).join(['- ' + q for q in analysis.get("interview_questions", [])])}
