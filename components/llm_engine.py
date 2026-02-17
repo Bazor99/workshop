@@ -26,7 +26,7 @@ Return STRICT JSON with:
 - match_score (0-100)
 - strengths (list)
 - missing_skills (list)
-- rewritten_bullets_star (list)
+- Suggestions for improvement (list)
 - tailored_summary (string)
 - interview_questions (list)
 """)
